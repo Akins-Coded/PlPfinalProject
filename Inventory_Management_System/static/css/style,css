@@ -1,0 +1,74 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2ce94c;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0069d9;
+}
+
+.btn-danger {
+    background-color: #f32a10;
+    border-color: #f5310f;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust layout and font sizes for smaller screens */
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
+}

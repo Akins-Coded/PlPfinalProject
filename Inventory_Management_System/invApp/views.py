@@ -27,7 +27,7 @@ def product_update_view(request, product_id):
     product = Product.objects.get(product_id=product_id)
     form = ProductForm()
     if request.method == 'POST':
-        ProductForm(request.POST,instance=product)
+        form = ProductForm(request.POST,instance=product)
         if form.is_valid():
             form.save()
             return redirect('product_list')
